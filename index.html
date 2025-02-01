@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Евклид</title>
+    <title>Evklid</title>
 </head>
 <body>
     <header class="header">
             <div class="header__logo-img">
-                <a href="#" class="header__logo">
-                    <img src="./img/Logo.svg" alt="Циркуль" class="header__logo-icon">
-                </a>
+                    <a href="#" class="header__logo">
+                        <img src="./img/Logo.svg" alt="Циркуль" class="header__logo-icon">
+                    </a>
                 <nav class="header__nav-item-list">
                     <ul class="header__nav-list">
                         <li class="header__nav-item"><a href="#" class="header__nav-link">О&nbsp;нас</a></li>
@@ -256,7 +256,7 @@
                         </div>
                 </div>
 
-                <div class="footer__form-link">
+                <div class="footer__link">
                     <div class="footer__form-link">
                         <h3 class="footer__title-form">
                             Оставить заявку
@@ -266,13 +266,17 @@
                     <form action="https://jsonplaceholder.typicode.com/posts" class="footer__input" method="POST">
                             <input type="text" name="name" placeholder="Фамилия, имя и отчество*" class="footer__form">
                             <input type="email" name="e-mail" placeholder="Email" class="footer__form">
-                            <textarea name="massange" placeholder="Сообщение" class="footer__form_text footer__form"></textarea>
+                            <textarea name="massange" placeholder="Сообщение" class="footer__form-text footer__form"></textarea>
                     </form>
                 </div>
         
                 <div class="footer__button">
 
-                        <button class="btn footer__button-link">Отправить данные</button>
+                        <button class="btn footer__button-link">
+                            <a href="#" class="footer__btn">
+                                Отправить данные
+                            </a>
+                        </button>
 
                     <label class="footer__form-check">
                         <input type="checkbox" class="footer__check-form">
