@@ -427,6 +427,8 @@ h2, h3 {
 
 .offer__btn-txt {
     padding: 26px 37px;
+    font-weight: 700;
+    font-size: 23px;
 }
 
 @media (max-width: 320px) {
@@ -436,13 +438,8 @@ h2, h3 {
     }
 }
 
-.offer__btn {
-    font-weight: 700;
-    font-size: 23px;
-}
-
 @media (max-width: 320px) {
-    .offer__btn {
+    .offer__btn-txt {
         font-size: 12px;
         line-height: 15px;
     }
@@ -1027,7 +1024,7 @@ h2, h3 {
 }
 
 @media (max-width: 320px) {
-    .stages__link {
+    .tages__button-link {
         font-weight: 700;
         font-size: 12px;
         line-height: 15px;
@@ -1077,7 +1074,7 @@ h2, h3 {
 }
 
 @media (max-width: 320px) {
-    .stages__btn-link {
+    .stages__btn-right {
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
@@ -1545,7 +1542,7 @@ a:focus {
 }
 
 @media (max-width: 320px) {
-    .footer__btn {
+    .footer__button-link {
         font-weight: 700;
         font-size: 12px;
         line-height: 15px;
@@ -1634,7 +1631,7 @@ a:focus {
 
 /*1200px*/
 
-/* @media (max-width: 1200px) {
+ @media (max-width: 1200px) {
     .offer__title-text {
         padding: 100px;
     }
@@ -1650,7 +1647,7 @@ a:focus {
         background-size: cover;
         /* height: 70vw; */
         /* height: 924px; */
-   /* }
+    }
 
     .benefits__cards {
         display: flex;
@@ -1662,7 +1659,7 @@ a:focus {
         background-position: 30px;
         padding: 30px 65px 52px 177px;
         /* min-width: 509px; */
-   /* }
+    }
 
     .benefits__subtitle {
         font-weight: 600;
@@ -1797,10 +1794,10 @@ a:focus {
     .footer__link {
         margin-right: 100px;
     }
-} */
+}
 
 /*480px*/
-/*
+
 @media (max-width: 480px) {
     .offer__title-text {
         padding: 60px 21px 59px 22px;
@@ -1822,7 +1819,7 @@ a:focus {
         margin-bottom: 32px;
     }
 
-    .offer__btn {
+    .offer__btn-txt {
         font-size: 15px;
         line-height: 15px;
     }
@@ -1868,7 +1865,7 @@ a:focus {
     .benefits__cards {
         display: flex /*!important*/;
         /*max-width: 430px /*!important*/;
-   /* }
+    }
 
     .benefits__content-right {
         background-image: url(../img/Frame320.svg);
@@ -1915,4 +1912,4 @@ a:focus {
     .questions__user-container {
         margin-bottom: 40px;
     }
-} */
+}
