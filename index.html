@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./index.js">
     <title>Евклид</title>
 </head>
 <body>
@@ -15,14 +16,14 @@
                     </a>
                 <nav class="header__nav-item-list">
                     <ul class="header__nav-list">
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">О&nbsp;нас</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Этапы</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Вопросы</a></li>
-                        <li class="header__nav-item"><a href="#" class="header__nav-link">Оставить заявку</a></li>
+                        <li class="header__nav-item"><a href="#section1" class="header__nav-link">О&nbsp;нас</a></li>
+                        <li class="header__nav-item"><a href="#section2" class="header__nav-link">Этапы</a></li>
+                        <li class="header__nav-item"><a href="#section3" class="header__nav-link">Вопросы</a></li>
+                        <li class="header__nav-item"><a href="#section4" class="header__nav-link">Оставить заявку</a></li>
                     </ul>
                 </nav>
                 <a href="#" class="header__icon">
-                    <svg width="24" class="header__pic" aria-label="поиск" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="24" class="header__pic" aria-label="Кнопка поиск" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black"/>
                         <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="black" stroke-width="2"/>
                         </svg>
@@ -44,11 +45,9 @@
                             пользователей и&nbsp;по&nbsp;сей день остаются уделом проектантов
                         </p>
                     </div>
-                    <a href="#" class="offer__btn">
                         <button class="btn offer__btn-txt offer__button">
                                 Заказать расчёт
                         </button>
-                    </a>
                 </div>
             </div>
         </section>
@@ -58,7 +57,9 @@
                     <div class="about-us__content-subtitle-text">
                         <div class="about-us__first-container">
                             <h2 class="about-us__title">
-                                О&nbsp;нас
+                                <a id="section1">
+                                    О&nbsp;нас
+                                </a>
                             </h2>
                             <p class="about-us__text-descr">
                                 Также как перспективное планирование создаёт необходимость включения
@@ -91,40 +92,40 @@
                                         подготовке и&nbsp;реализации новых принципов
                                     </p>
                                 <div class="benefits__content-button">
-                                    <a href="#" class="benefits__button">
                                         <button class="btn benefits__content-btn benefits__text-button">
                                                 Подробнее
                                         </button>
-                                    </a>
                                 </div>
                             </div>
                         </li>
 
-                        <div class="benefits__cards">
-                            <li class="benefits__content-right">
-                                    <h3 class="benefits__subtitle">
-                                        Консультация с&nbsp;широким активом
-                                    </h3>
-                                    <p class="benefits__tagline">
-                                        А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash;
-                                        безусловно открывает новые горизонты
-                                        для как самодостаточных, так и&nbsp;внешне зависимых
-                                        концептуальных решений
-                                    </p>
-                            </li>
-    
-                            <li class="benefits__content-bottom">
-                                    <h3 class="benefits__subtitle">
-                                        В&nbsp;своём стремлении повысить
-                                    </h3>
-                                    <p class="benefits__tagline">
-                                        Качество жизни, они забывают, что сплочённость
-                                        команды профессионалов представляет собой
-                                        интересный эксперимент проверки прогресса
-                                        профессионального сообщества
-                                    </p>
-                            </li>
-                        </div>
+                        <li class="benefits__content-right">
+                            <div class="benefits__cards">
+                                <h3 class="benefits__subtitle">
+                                    Консультация с&nbsp;широким активом
+                                </h3>
+                                <p class="benefits__tagline">
+                                    А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash;
+                                    безусловно открывает новые горизонты
+                                    для как самодостаточных, так и&nbsp;внешне зависимых
+                                    концептуальных решений
+                                </p>
+                            </div>
+                        </li>
+                        
+                        <li class="benefits__content">
+                            <div class="benefits__content-bottom">
+                                <h3 class="benefits__subtitle">
+                                    В&nbsp;своём стремлении повысить
+                                </h3>
+                                <p class="benefits__tagline">
+                                    Качество жизни, они забывают, что сплочённость
+                                    команды профессионалов представляет собой
+                                    интересный эксперимент проверки прогресса
+                                    профессионального сообщества
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
         </section>
@@ -132,7 +133,9 @@
         <section class="stages">
             <div class="container">
                         <h2 class="stages__title-aside">
-                            Этапы
+                            <a id="section2">
+                                Этапы
+                            </a>
                         </h2>
 
                         <div class="stages__container-offer">
@@ -159,16 +162,13 @@
                                 </p>
                             </div>
                                 <div class="stages__container-button">
-                                    <a href="#" class="stages__link">
                                         <button class="btn stages__button-link">
                                                 Подробнее
                                         </button>
-                                    </a>
-                                    <a href="#" class="stages__btn-link">
+
                                         <button class=" btn stages__btn-right btn-reset">
                                                 Договор
                                         </button>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,9 @@
         <section class="questions">
             <div class="container">
                 <h2 class="questions__title">
-                    Вопросы
+                    <a id="section3">
+                        Вопросы
+                    </a>
                 </h2>
                 <ul class="questions__user-container">
                     <li class="questions__user-title-txt">
@@ -259,7 +261,9 @@
                 <div class="footer__link">
                     <div class="footer__form-link">
                         <h3 class="footer__title-form">
-                            Оставить заявку
+                            <a id="section4">
+                                Оставить заявку
+                            </a>
                         </h3>
                     </div>
                 <div class="footer__form-input">
@@ -272,11 +276,9 @@
         
                 <div class="footer__button">
 
-                    <a href="#" class="footer__btn">
                         <button class="btn footer__button-link">
                                 Отправить данные
                         </button>
-                    </a>
 
                     <label class="footer__form-check">
                         <input type="checkbox" class="footer__check-form">
