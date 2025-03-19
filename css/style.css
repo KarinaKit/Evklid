@@ -1665,10 +1665,6 @@ a:focus {
         font-size: 23px;
     }
 
-    .benefits__tagline {
-
-    }
-
     .benefits__content-bottom {
         background-image: url(../img/2-768px.svg);
         background-position: 30px;
@@ -1714,8 +1710,8 @@ a:focus {
     }
 
     .questions__user-title-txt {
-        width: 59% !important;
-        padding: 65px 74px 65px 106px !important;
+        width: 59%;
+        padding: 65px 74px 65px 106px;
     }
 
     .footer__right {
@@ -1731,6 +1727,11 @@ a:focus {
     .benefits__content-lead {
         align-items: center;
         padding: 30px;
+    }
+
+    .benefits__content {
+        flex-direction: column;
+        width: 100%;
     }
 
     .stages__container-offer {
