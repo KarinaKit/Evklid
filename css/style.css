@@ -546,8 +546,9 @@ h2, h3 {
     background-size: cover;
     background-position: 36%;
     border-radius: 32px;
-    width: calc((100% - (var(--elements) -1) * var(--gap) / var(--elements)));
-    width: 211%;
+    /* width: calc((100% - (var(--elements) -1) * var(--gap) / var(--elements))); */
+    width: 868px;
+    height: 622px;
 }
 
 .benefits__content-lead {
@@ -609,6 +610,7 @@ h2, h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    width: 870px;
 }
 
 @media (max-width: 768px) {
