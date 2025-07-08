@@ -7,10 +7,9 @@
 &#10004; Веб-сайт стилизован псевдоэлементов ::before и ::after для украшений и деталей. 
 Состояний при наведении (:hover) для анимации, выделения и смены декора.
 
-Для экрана 1920px &#128421; ![1920](https://github.com/user-attachments/assets/b5696781-c480-4adc-863e-7c7f3c5b9041)
+Для экрана 1920px ![1920](https://github.com/user-attachments/assets/b5696781-c480-4adc-863e-7c7f3c5b9041)
 
-Для экарана 768px &#128421; ![Uploading 768.jpg…]()
-
+Для экарана 768px ![768](https://github.com/user-attachments/assets/651a2647-729c-4af8-8bae-ee5bc68c353a)
 
 Автор:
 
